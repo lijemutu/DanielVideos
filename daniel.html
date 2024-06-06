@@ -1,10 +1,79 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videos para Daniel</title>
+    <link rel="stylesheet" href="bulma.min.css">
 </head>
+
 <body>
-    
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="">
+                Daniel
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#wolf">
+                    La ley y el orden
+                </a>
+
+                <a class="navbar-item" href="#got">
+                    Game of Thrones
+                </a>
+
+                <a class="navbar-item" href="#hod">
+                    House of the Dragon
+                </a>
+
+            </div>
+
+
+        </div>
+    </nav>
+
+    <div class="block">
+        <section class="hero">
+            <div class="hero-body">
+                <p class="title">Videos de Daniel</p>
+                <p class="subtitle">La ley y el orden</p>
+
+                <video controls>
+                    <source src="wolf.mp4" type="video/mp4" id="wolf">
+                    Your browser does not support the video tag.
+                </video>
+
+
+                <div class="block">
+                    <p class="subtitle">Game of Thrones</p>
+                    <video height="1080" controls id="got">
+                        <source src="Official Opening Credits： Game of Thrones (HBO) [s7L2PVdrb_8].webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="block">
+                    <p class="subtitle">House of the Dragon</p>
+                    <video height="1080" controls id="hod">
+                        <source src="House of the Dragon Opening Credits 4K ｜ Season 1 (HBO) ｜ Game Of Thrones Extras [aoPsQgJgkgo].webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+    </div>
+
 </body>
+
 </html>
